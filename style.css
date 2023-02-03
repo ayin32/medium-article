@@ -1,0 +1,72 @@
+body{
+  font-family: 'Noto Sans', sans-serif;
+  color: grey;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+.article h2{
+color: pink;
+line-height: 50px;
+}
+
+.banner{
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  padding: 120px;
+}
+
+.banner p{
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+
+.container{
+ margin: 50px auto;
+ width: 700px;
+}
+
+.link{
+  background-image: linear-gradient(pink, white);
+  font-weight: lighter;
+  font-size: 25px;
+  margin: auto;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.link:hover{
+  background-image: linear-gradient(hotpink, white);
+}
+
+
+@media (max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+}
